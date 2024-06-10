@@ -1,0 +1,15 @@
+/* styles/globals.css */
+
+/* Base styles for dashboard container */
+.dashboardContainer {
+  margin: auto;
+  padding: 20px;
+  max-width: 800px;
+}
+
+/* Responsive styles for dashboard */
+@media (max-width: 768px) {
+  .dashboardContainer {
+    padding: 10px;
+  }
+}

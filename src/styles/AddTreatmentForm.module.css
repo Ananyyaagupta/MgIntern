@@ -1,0 +1,32 @@
+/* src/components/AddTreatmentForm.module.css */
+
+/* Base styles */
+.formContainer {
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 640px) {
+    .formContainer {
+      width: 90%;
+    }
+    .formContainer input[type="date"],
+    .formContainer input[type="text"],
+    .formContainer textarea {
+      width: calc(100% - 20px);
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .formContainer input[type="date"],
+    .formContainer input[type="text"],
+    .formContainer textarea {
+      width: calc(100% - 10px);
+    }
+  }
+  

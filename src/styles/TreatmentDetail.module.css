@@ -1,0 +1,32 @@
+/* src/components/TreatmentDetails.module.css */
+
+/* Base styles */
+.detailsContainer {
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .detailsContainer {
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .detailsContainer {
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .detailsContainer {
+      padding: 5px;
+    }
+  }
+  
